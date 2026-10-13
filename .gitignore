@@ -1,0 +1,16 @@
+# Binarios gerados pela compilacao (ver Makefile) - tudo vai para bin/
+bin/*.o
+bin/*.a
+bin/*.so
+bin/*.dll
+bin/*.exe
+bin/app
+bin/testeRegressivo
+
+# mas mantemos a pasta bin/ rastreada no Git (vazia, via .gitkeep)
+!bin/.gitkeep
+
+# arquivos de SO / editor
+.DS_Store
+Thumbs.db
+*.swp
