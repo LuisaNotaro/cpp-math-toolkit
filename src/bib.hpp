@@ -8,4 +8,8 @@
 // fatorial(0) = 1 (caso base)
 long long calcularFatorial(int n);
 
+// Verifica se n e um numero primo.
+// Por definicao, numeros menores ou iguais a 1 (incluindo negativos) nao sao primos.
+bool ehPrimo(int n);
+
 #endif // BIB_HPP
